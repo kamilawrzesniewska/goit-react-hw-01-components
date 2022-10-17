@@ -3,8 +3,30 @@ import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
 
+
+import { Profile } from './components/zad1Profile/Profile';
+import { Statistics } from './components/Zad2Statistic/Statistic';
+import { FriendList } from './components/Zad3Friends/FriendsList/';
+import { TransactionHistory } from '/components/Zad4Transaction/Transaction';
+
+import user from './components/zad1Profile/user.json';
+import data from './components/Zad2Statistic/data.json';
+import friends from './components/Zad3Friends/friends.json';
+import transactions from './components/Zad4Transaction/transactions.json';
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App>
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+    </App>
   </React.StrictMode>
 );
+
