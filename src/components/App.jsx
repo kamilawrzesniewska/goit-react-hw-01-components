@@ -22,4 +22,4 @@ App.propTypes = {
   children: PropTypes.array.isRequired,
 };
 
-export default App;
+
