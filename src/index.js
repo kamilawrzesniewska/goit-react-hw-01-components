@@ -3,17 +3,15 @@ import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
 
-import user from './components/Zad1Profile/user.json';
-import data from './components/Zad2Statistic/data.json';
-import friends from './components/Zad3Friends/friends.json';
-import transactions from './components/Zad4Transaction/transactions.json';
-
-
 import { Profile } from './components/Zad1Profile/Profile';
 import { Statistics } from './components/Zad2Statistic/Statistic';
 import { FriendList } from './components/Zad3Friends/FriendsList';
 import { TransactionHistory } from './components/Zad4Transaction/Transaction';
 
+import user from './components/Zad1Profile/user.json';
+import data from './components/Zad2Statistic/data.json';
+import friends from './components/Zad3Friends/friends.json';
+import transactions from './components/Zad4Transaction/transactions.json';
 
 
 
